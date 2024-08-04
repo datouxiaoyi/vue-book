@@ -23,16 +23,22 @@
     </div>
 </template>
 
+
 <script>
+import c from '../assets/c++.png';
+import Csharp from '../assets/Csharp.png';
+import golang from '../assets/golang.png';
+import java from '../assets/java.png';
+import python from '../assets/python.png';
 export default {
     data() {
         return {
             products: [
-                { id: 1, name: 'Python', price: 10.00, image: '/public/python.png' },
-                { id: 2, name: 'C++', price: 20.00, image: '/public/c++.png' },
-                { id: 3, name: 'C#', price: 30.00, image: '/public/Csharp.png' },
-                { id: 4, name: 'Java', price: 40.00, image: '/public/java.png' },
-                { id: 5, name: 'Go', price: 50.00, image: '/public/golang.png' }
+                { id: 1, name: 'Python', price: 10.00, image: python },
+                { id: 2, name: 'C++', price: 20.00, image: c },
+                { id: 3, name: 'C#', price: 30.00, image: Csharp },
+                { id: 4, name: 'Java', price: 40.00, image: java },
+                { id: 5, name: 'Go', price: 50.00, image: golang }
             ]
         };
     },
